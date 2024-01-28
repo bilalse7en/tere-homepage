@@ -1,0 +1,69 @@
+@font-face {
+    font-family:"gilroy";
+    src: url("./font/gilroy/Gilroy-Regular.ttf") format("truetype");
+  }
+
+body{
+    background: #f0f0f0!important;
+    font-family:"gilroy"!important;
+}
+
+.btn-tbc {
+    background: #75BF7A!important;
+    color: white!important;
+}
+.text-tc {
+    color: #75BF7A!important;
+}
+
+.bg-tbc {
+    background: #75BF7A!important;
+}
+.btn-tbc:hover {
+    filter: brightness(0.95);
+}
+.img, img  {
+    max-width: 100%;
+    height: auto;
+}
+
+.phone-input {
+    width: 100%;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600!important;
+}
+
+.phone-input::placeholder {
+    opacity: 0.5!important;
+}
+
+.left-htw {
+    font-size: 30px;
+    font-weight: 600;
+    right: 28px;
+    line-height: 2.2;
+    color: #75BF7A;
+}
+
+.left-htw2 {
+    font-size: 30px;
+    font-weight: 600;
+    right: 24px;
+    line-height: 2.2;
+    color: #75BF7A;
+}
+
+.tb-list>:first-child {
+    font-size: 70px;
+    color: #75BF7A;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.footer-end {
+    color: #75BF7A;
+    text-align: center;
+    padding: 20px;
+}
